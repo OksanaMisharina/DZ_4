@@ -10,7 +10,5 @@ public class Main {
                 .load();
         flyway.clean();
         flyway.migrate();
-
-        System.out.println("я сделяль");
     }
 }
